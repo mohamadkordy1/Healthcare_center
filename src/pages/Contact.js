@@ -18,7 +18,6 @@ function Contact() {
     <section id="contact" className="section" style={{ paddingTop: "120px" }}>
       <h2>Contact us</h2>
 
-      {/* Changed <div> to <form> but kept the 'form-box' class for styling */}
       <form className="form-box" onSubmit={handleSubmit}>
         <input 
           name="fname"

@@ -27,7 +27,7 @@ function Appointment() {
   return (
     <>
   
-      {/* MAIN FORM SECTION */}
+  
       <main className="appointment-container">
         <section className="appointment-card">
           <div className="form-header">

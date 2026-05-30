@@ -1,8 +1,7 @@
 import React from 'react';
-import '../style.css'; // Adjust path based on your folder structure
+import '../style.css'; 
 
 function Facility() {
-  // Storing your data in an array makes it easy to add more facilities later!
   const facilityList = [
     { id: 1, title: "Emergency", description: "Available all day for urgent cases." },
     { id: 2, title: "Doctors", description: "Qualified and experienced staff." },

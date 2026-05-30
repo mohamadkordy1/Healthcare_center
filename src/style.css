@@ -256,6 +256,7 @@ height: 635px;
 
  .grid{
 display: flex;  
+margin-left:85px ;
     flex-direction: column;
 }
 }

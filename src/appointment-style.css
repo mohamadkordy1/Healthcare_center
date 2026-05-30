@@ -1,0 +1,78 @@
+
+.appointment-container {
+    padding: 120px 0 60px; 
+    background: #f5f5f5d1;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appointment-card {
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-header h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.responsive-row {
+    display: flex;
+      flex-direction: column;
+    gap: 15px;
+
+}
+
+.responsive-row input {
+    flex: 1;
+    
+
+}
+
+.custom-select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .appointment-card {
+        padding: 25px;
+    }
+    
+    .responsive-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav ul {
+        gap: 10px; 
+    }
+
+    .nav h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .appointment-container {
+        padding-top: 100px;
+    }
+    
+    .form-header h1 {
+        font-size: 1.5rem;
+    }
+}

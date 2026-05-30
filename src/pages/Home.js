@@ -1,5 +1,5 @@
 import image3 from "../images/image3.jpeg";
-
+import { Link } from "react-router-dom";
  function Home() {
   return (
     <section id="home" class="hero">
@@ -8,7 +8,7 @@ import image3 from "../images/image3.jpeg";
         <div class="text">
             <h1>Stay safe and healthy.</h1>
             <p>Your health and well-being are our priorities.</p>
-            <button ><a href="/appointment" class="button">Make Appointment</a></button>
+            <button >  <Link to="/Appointment">contact</Link></button>
         </div>
         <div class="image">
             <img src={image3} alt="doctor" />

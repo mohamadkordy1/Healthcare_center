@@ -11,7 +11,7 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(JSON.stringify(state, null, 2));
+    alert("message sent successfully!");
   };
 
   return (

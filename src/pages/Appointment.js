@@ -21,7 +21,7 @@ function Appointment() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(JSON.stringify(form, null, 2));
+    alert("appointment booked successfully!");
   };
 
   return (

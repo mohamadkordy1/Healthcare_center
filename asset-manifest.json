@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Healthcare_center/static/css/main.a3556c23.css",
-    "main.js": "/Healthcare_center/static/js/main.a27cd39a.js",
+    "main.js": "/Healthcare_center/static/js/main.ee4002be.js",
     "static/js/453.d4b69d06.chunk.js": "/Healthcare_center/static/js/453.d4b69d06.chunk.js",
     "index.html": "/Healthcare_center/index.html",
     "main.a3556c23.css.map": "/Healthcare_center/static/css/main.a3556c23.css.map",
-    "main.a27cd39a.js.map": "/Healthcare_center/static/js/main.a27cd39a.js.map",
+    "main.ee4002be.js.map": "/Healthcare_center/static/js/main.ee4002be.js.map",
     "453.d4b69d06.chunk.js.map": "/Healthcare_center/static/js/453.d4b69d06.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3556c23.css",
-    "static/js/main.a27cd39a.js"
+    "static/js/main.ee4002be.js"
   ]
 }

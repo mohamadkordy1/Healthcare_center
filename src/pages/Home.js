@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
         <div class="text">
             <h1>Stay safe and healthy.</h1>
             <p>Your health and well-being are our priorities.</p>
-            <button >  <Link to="/Appointment">contact</Link></button>
+            <button >  <Link to="/Appointment">Make an Appointment</Link></button>
         </div>
         <div class="image">
             <img src={image3} alt="doctor" />
